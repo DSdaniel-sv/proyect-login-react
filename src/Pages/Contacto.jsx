@@ -23,7 +23,7 @@ const Contacto = () => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <figure className="w-100 img-form" id="box__img-message">
-                            <img src="./src/assets/img/image-1.svg"/>
+                            <img src="./src/assets/img/mensajeria2.webp"/>
                         </figure>
                     </div>
                 </div>

@@ -2,3 +2,58 @@
     margin: 0;
     padding: 0;
 }
+
+/* HEADER */
+.header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #4e4e4e91;
+    border-radius: 20px;
+}
+.box__img{
+    margin: 0 10px;
+}
+.box__img img{
+    width: 50px;
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 35px;
+}
+.menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+.a{
+    color: #214141;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgba(255, 153, 0, 0.521);
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: steps(0) 300s ease;
+}
+
+.menu > .a:hover{
+    font-size: 1.5rem;
+    transform: scale(1);
+}
