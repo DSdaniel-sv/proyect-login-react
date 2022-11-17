@@ -56,6 +56,8 @@ i{
 .container__Img{
   text-align: center;
   background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .imgIcon{
