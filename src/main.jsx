@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Header from '../src/components/Header'
 import './index.css'
 import './components/Header.css'
-import './pages/Login.css'
+import Router from './Router/Router';
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
+    <Router/>
   </React.StrictMode>
 )
