@@ -8,16 +8,7 @@ const Contacto = () => {
             <form id="form-container">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 col-sm-12">
-                        <div className="logotipe d-flex justify-content-center">
-                            <Link to='' className="d-flex align-items-center">
-                                <img
-                                    src="./src/assets/img-multimedia/logo/logo.png"
-                                    className="img-fluid"
-                                    alt="logo.png"
-                                />
-                                <h3 className="ubuntu">AUTOPARTES</h3>
-                            </Link>
-                        </div>
+                        
                         <h4 className="text-center text-uppercase anton">Contacto</h4>
                         <hr />
                         <div className="inputs-form form-group">

@@ -3,6 +3,7 @@ import '../Pages/Login.css'
 
 export default function Login() {
   return (
+    <div className='container__login'>
     <div className='container'>
       <form className='container__Form' action="">
         <div className='container__Img'>
@@ -13,6 +14,7 @@ export default function Login() {
         <i className="fa-solid fa-lock"><input className='letras' type="password" placeholder="Password" /></i>
         <button className='btnLogin' type="submit">Login</button>
       </form>
+    </div>
     </div>
   )
 }

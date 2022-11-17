@@ -1,12 +1,12 @@
-* {
+.container__login{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  background-image: url("https://fondosmil.com/fondo/26539.jpg");
+  
 }
 
-body {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
